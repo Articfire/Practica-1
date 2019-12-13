@@ -18,9 +18,10 @@ const Tabs = createMaterialTopTabNavigator({
     },
     indicatorStyle: {
       backgroundColor: '#fff',
-  },
+    },
   }
-})
+},
+)
 
 const Stacks = createStackNavigator({
   Inicio: {screen: Tabs,

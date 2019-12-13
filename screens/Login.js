@@ -28,9 +28,9 @@ class Login extends Component {
 	iniciarSesion(usuario, contraseña) {
 		if (usuario == this.state.usuario_registrado && contraseña == this.state.contraseña_registrada) {
 			this.setState({ haySesion: true })
+			this.setState({ usuario_actual: '' })
+			this.setState({ contraseña_actual: '' })
 		}
-		this.setState({ usuario_actual: '' })
-		this.setState({ contraseña_actual: '' })
 	}
 
 	cerrarSesion() {
@@ -40,6 +40,7 @@ class Login extends Component {
     render() {
         return (
 			<View style={styles.container}>
+				<Text style={styles.label}>Formulario de Inicio/Registro.</Text>
 
 				{ this.state.haySesion ? (
 					<View>

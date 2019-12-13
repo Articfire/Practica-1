@@ -14,6 +14,8 @@ const styles = StyleSheet.create({
         margin: 5,
     },
     label: {
+        marginBottom: 20,
+        fontFamily: 'Roboto',
     }
 })
 
