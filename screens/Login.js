@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, TextInput } from 'react-native';
 
-var styles = require('../assets/js/Estilos')
+var styles = require('./Estilos')
 
 class Login extends Component {
     render() {
