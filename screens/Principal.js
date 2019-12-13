@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import { View, Text, Image } from 'react-native';
 
+import styles from './Estilos';
+
 class Principal extends Component {
     render() {
         return (
-            <View>
-                <Text>Principal</Text>
+            <View style={styles.container}>
+                <Image source={ require('../assets/images/robot-prod.png') }/>
+                <Text style={styles.label}>Bienvenido a la pantalla principal.</Text>
             </View>
         )
     }
