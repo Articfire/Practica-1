@@ -6,6 +6,7 @@ import Principal from './screens/Principal';
 import Diseño from './screens/Diseño';
 import Map from './screens/Map';
 
+
 const Tabs = createMaterialTopTabNavigator({
   Principal: {screen: Principal},
   Diseño: {screen: Diseño},
