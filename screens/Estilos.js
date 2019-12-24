@@ -16,6 +16,20 @@ const styles = StyleSheet.create({
     label: {
         marginBottom: 20,
         fontFamily: 'Roboto',
+    },
+    item: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin: 10,
+        borderWidth: 1,
+        borderRadius: 5,
+        padding: 10,
+        backgroundColor: 'wheat'
+    },
+    footer: {
+        width: '100%',
+        backgroundColor: 'red',
+        borderTopWidth: 2,
     }
 })
 

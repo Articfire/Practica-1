@@ -3,13 +3,13 @@ import { createStackNavigator } from 'react-navigation-stack'
 import { createMaterialTopTabNavigator } from 'react-navigation-tabs';
 
 import Principal from './screens/Principal';
-import Login from './screens/Login';
-import Temperatura from './screens/Temperatura';
+import Diseño from './screens/Diseño';
+import Map from './screens/Map';
 
 const Tabs = createMaterialTopTabNavigator({
   Principal: {screen: Principal},
-  Login: {screen: Login},
-  Temperatura: {screen: Temperatura},
+  Diseño: {screen: Diseño},
+  Map: {screen: Map},
 },
 {
   tabBarOptions: {
